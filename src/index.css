@@ -54,7 +54,7 @@
 }
 
 .logo{
-    width: 300px;
+    width: 20%;
     height: 60px;
     background-color: white;
     justify-self: center;
@@ -74,12 +74,97 @@ nav{
     justify-content: space-between;
 }
 .links{
-    width: 400px;
+    width: 40%;
     height: 60px;
     background-color: blue;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
 .lastlinks{
-    width: 400px;
+    width: 40%;
     height: 60px;
-    background-color: yellow;
+    /* background-color: yellow; */
+    padding: 10px;
+    display: flex;
+    justify-content: end;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.link1, .link2, .link3, .link4{
+    width: 12vw;
+    height: 3vw;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 22px;
+}
+.link1>a, .link2>a, .link3>a, .link4>a{
+    text-decoration: none;
+    color: white;
+    font-size: 1vw;
+}
+
+
+.foot{
+    width: 70%;
+    height: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search{
+    width: 12vw;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(12px);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    -webkit-backdrop-filter: blur(12px);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-radius: 26px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.search input{
+    width: 70%;
+    height: 100%;
+    background-color: transparent;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 10px;
+}
+
+.search input::placeholder{
+    color: white;
+    font-size: 13px;
+}
+.menu{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+.circle1{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.searcho{
+    width: 15px;
+    height: 15px;
 }
