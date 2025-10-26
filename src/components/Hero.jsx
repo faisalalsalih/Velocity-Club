@@ -13,6 +13,7 @@ const Hero = () => {
         <div className="hero-container">
           <img src={heroimage} alt="heroimage" className='hero-image' />
           <div className="overlay">
+            {/* NAVBAR */}
             <nav>
               <div className="links">
                 <div className="link1"><a href="#">About us</a></div>
@@ -41,6 +42,10 @@ const Hero = () => {
               </div>
             </div>
             </nav>
+            {/* NAVBAR ENDS HERE */}
+            <div className="left">
+              
+            </div>
           </div>
         </div>
       </section>

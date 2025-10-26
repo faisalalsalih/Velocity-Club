@@ -143,7 +143,6 @@ nav{
     border: none;
     outline: none;
     padding: 10px;
-    background-color: green;
 }
 
 .search input::placeholder{
@@ -244,4 +243,15 @@ nav{
         width: 35%;
     }
     
+}
+
+/* ========= THE NAVBAR SECTION ENDS HERE =========== */
+
+
+
+/* ===== LEFT SIDE DIV CODE IS HERE ===== */
+.left{
+    width: 300px;
+    height: 400px;
+    background-color: gray;
 }
