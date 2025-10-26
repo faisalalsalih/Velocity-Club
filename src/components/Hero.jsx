@@ -3,6 +3,7 @@ import heroimage from "../assets/Hero.jpg"
 import logos from "../assets/trophy.png"
 import menu from "../assets/menu.png"
 import search from "../assets/search.png"
+import arrow from "../assets/right-up.png"
 
 
 const Hero = () => {
@@ -32,7 +33,9 @@ const Hero = () => {
                 </div>
                 <div className="book">
                   <h3>Book Now</h3>
-                  <div className="circle2"></div>
+                  <div className="circle2">
+                    <img src={arrow} alt="arrow" className='arrow' />
+                  </div>
                 </div>
                 <div className="hamburger"><img src={menu} alt="menu-icon" className='menu' /></div>
               </div>

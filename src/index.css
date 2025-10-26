@@ -86,7 +86,7 @@ nav{
 .lastlinks{
     width: 40%;
     height: 60px;
-    /* background-color: yellow; */
+    background-color: yellow;
     padding: 10px;
     display: flex;
     justify-content: end;
@@ -112,7 +112,7 @@ nav{
 .foot{
     width: 70%;
     height: 100%;
-    /* background-color: red; */
+    background-color: red;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -165,6 +165,40 @@ nav{
 }
 
 .searcho{
+    width: 15px;
+    height: 15px;
+}
+
+.book{
+    width: 9vw;
+    height: 40px;
+    background-color: black;
+    border-radius: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    /* padding: 10px; */
+    padding-left: 6px;
+    padding-right: 6px;
+}
+.book h3{
+    color: white;
+    font-weight: 300;
+    font-size: 14px;
+}
+.book .circle2{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.arrow{
     width: 15px;
     height: 15px;
 }
