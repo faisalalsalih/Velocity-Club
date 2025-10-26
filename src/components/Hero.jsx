@@ -4,6 +4,9 @@ import logos from "../assets/trophy.png"
 import menu from "../assets/menu.png"
 import search from "../assets/search.png"
 import arrow from "../assets/right-up.png"
+import person1 from "../assets/person1.jpg"
+import person2 from "../assets/person2.jpg"
+import person3 from "../assets/person3.png"
 
 
 const Hero = () => {
@@ -44,7 +47,12 @@ const Hero = () => {
             </nav>
             {/* NAVBAR ENDS HERE */}
             <div className="left">
-              
+              <div className="capsule">
+                <div className="persona"><img src={person1} alt="person1" className='person1' /></div>
+                <div className="persona"><img src={person2} alt="person2" className='person2' /></div>
+                <div className="persona"><img src={person3} alt="person3" className='person3' /></div>
+              </div>
+              <div className="paragraph"></div>
             </div>
           </div>
         </div>
