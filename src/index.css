@@ -66,8 +66,8 @@
 }
 
 .logos{
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
 }
 
 nav{
@@ -225,10 +225,6 @@ nav{
     }
     .logo{
         clip-path: polygon(0% 0%, 100% 0%, 77% 100%, 0% 100%);
-    }
-    .logos{
-        width: 40px;
-        height: 40px;       
     }
 }
 
