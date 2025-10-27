@@ -13,6 +13,9 @@ import people2 from "../assets/people2.jpg"
 import people3 from "../assets/people3.jpg"
 import people4 from "../assets/people4.jpg"
 import thunder from "../assets/thunder.png"
+import playstore from "../assets/playstore.png"
+import download from "../assets/download.png"
+import apple from "../assets/apple-logo.png"
 
 
 const Hero = () => {
@@ -107,7 +110,21 @@ const Hero = () => {
               {/* BLUR BACKGROUND */}
 
               <div className="whitish">
-                
+                <div className="texto">
+                  <h3 className='download'>Download</h3>
+                  <div className="flexit">
+                    <h3>Our</h3>
+                    <div className="jatka"><img src={thunder} alt="thunder" className='thunder' /></div>
+                    <h3>App</h3>
+                  </div>
+                </div>
+
+
+                <div className="rounded">
+                  <div className="gola"><img src={apple} alt="apple" className='apple' /></div>
+                  <div className="gola"><img src={playstore} alt="playstore"  className='playstore' /></div>
+                  <div className="activate"><img src={download} alt="download" className='download' /></div>
+                </div>
               </div>
             </div>
 

@@ -544,7 +544,79 @@ nav{
     position: absolute;
     top: 80px;
     left: 370px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.flexit{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.jatka{
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.thunder{
+    width: 15px;
+    height: 15px;
 }
 
 
+.rounded{
+    width: 100px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 26px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    align-items: center;
+}
 
+
+.gola{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.gola:hover{
+    background-color: gainsboro;
+    transition: all 400ms ease-in-out;
+    cursor: pointer;
+}
+
+
+.activate{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    cursor: pointer;
+}
+.activate>img{
+    width: 13px;
+    height: 13px;
+}
+.gola>img{
+    width: 13px;
+    height: 13px;
+}
