@@ -253,7 +253,7 @@ nav{
 .left{
     width: 300px;
     height: fit-content;
-    background-color: gray;
+    /* background-color: gray; */
     padding-left: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -348,7 +348,7 @@ nav{
     height: fit-content;
     padding-bottom: 8px;
     padding-top: 8px;
-    background-color: pink;
+    /* background-color: pink; */
     position: absolute;
     right: 0;
     top: 150px;
@@ -393,7 +393,7 @@ nav{
 .big-text{
     width: 60%;
     height: 100%;
-    background-color: pink;
+    /* background-color: pink; */
     padding: 4px;
     padding-left: 20px;
 }
@@ -414,7 +414,7 @@ nav{
 .short-text{
     width: 40%;
     height: 100%;
-    background-color: blue;
+    /* background-color: blue; */
     position: relative;
 }
 
@@ -449,7 +449,7 @@ nav{
 .people{
     width: 140px;
     height: 40px;
-    background-color: pink;
+    /* background-color: pink; */
     border-radius: 26px;
     padding: 2px;
     position: relative;
@@ -732,6 +732,6 @@ nav{
         padding-top: 20px;
     }
     .whitish{
-        right: 50px;
+        right: 10px;
     }
 }
