@@ -245,6 +245,14 @@ nav{
     
 }
 
+
+@media (min-width:1780px){
+    .link1, .link2, .link3, .link4{
+        width: 200px;
+        height: 40px;
+    }
+}
+
 /* ========= THE NAVBAR SECTION ENDS HERE =========== */
 
 
