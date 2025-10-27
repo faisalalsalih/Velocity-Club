@@ -12,6 +12,7 @@ import people1 from "../assets/people1.jpg"
 import people2 from "../assets/people2.jpg"
 import people3 from "../assets/people3.jpg"
 import people4 from "../assets/people4.jpg"
+import thunder from "../assets/thunder.png"
 
 
 const Hero = () => {
@@ -86,6 +87,7 @@ const Hero = () => {
             </div>
 
             <div className="short-text">
+              {/* BLUR BACKGROUND */}
               <div className="blur-background">
                 <h4>Refer a friends</h4>
                 <p>Share your Referal links with friends</p>
@@ -101,6 +103,11 @@ const Hero = () => {
                     <div className="people4"><img src={people4} alt="people4" className='p-image' /></div>
                   </div>
                 </div>
+              </div>
+              {/* BLUR BACKGROUND */}
+
+              <div className="whitish">
+                
               </div>
             </div>
 
