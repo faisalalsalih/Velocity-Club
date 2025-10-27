@@ -417,3 +417,82 @@ nav{
     background-color: blue;
     padding: 4px;
 }
+
+.blur-background{
+    width: 400px;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(30px);
+    border-radius: 22px;
+    padding: 10px;
+}
+
+.share-link{
+    width: 130px;
+    height: 35px;
+    background-color: white;
+    padding: 2px;
+    border-radius: 26px;
+}
+
+.people{
+    width: 140px;
+    height: 40px;
+    background-color: pink;
+    border-radius: 26px;
+    padding: 2px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.people1{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    left: 20px;
+    z-index: 1;
+}
+
+.people2{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    left: 40px;
+    z-index: 2;
+}
+
+
+.people3{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    left: 60px;
+    z-index: 3;
+}
+
+
+.people4{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    left: 80px;
+    z-index: 4;
+}
+.p-image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

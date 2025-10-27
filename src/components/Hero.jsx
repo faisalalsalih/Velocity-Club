@@ -7,6 +7,11 @@ import arrow from "../assets/right-up.png"
 import person1 from "../assets/person1.jpg"
 import person2 from "../assets/person2.jpg"
 import person3 from "../assets/person3.png"
+import share from "../assets/share.png"
+import people1 from "../assets/people1.jpg"
+import people2 from "../assets/people2.jpg"
+import people3 from "../assets/people3.jpg"
+import people4 from "../assets/people4.jpg"
 
 
 const Hero = () => {
@@ -81,7 +86,22 @@ const Hero = () => {
             </div>
 
             <div className="short-text">
-
+              <div className="blur-background">
+                <h4>Refer a friends</h4>
+                <p>Share your Referal links with friends</p>
+                <div className="flexo">
+                  <div className="share-link">
+                    <img src={share} alt="search" className='share' />
+                    <h5>Share links</h5>
+                  </div>
+                  <div className="people">
+                    <div className="people1"><img src={people1} alt="people1" className='p-image' /></div>
+                    <div className="people2"><img src={people2} alt="people2" className='p-image' /></div>
+                    <div className="people3"><img src={people3} alt="people3" className='p-image' /></div>
+                    <div className="people4"><img src={people4} alt="people4" className='p-image' /></div>
+                  </div>
+                </div>
+              </div>
             </div>
 
             </div>
