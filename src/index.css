@@ -253,7 +253,7 @@ nav{
 .left{
     width: 300px;
     height: fit-content;
-    /* background-color: gray; */
+    background-color: gray;
     padding-left: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -619,4 +619,119 @@ nav{
 .gola>img{
     width: 13px;
     height: 13px;
+}
+
+
+
+/* ====== RESPONSIVE THE HERO SECTION HERE ======== */
+@media (max-width:900px){
+    .big-text h1{
+        font-size: 42px;
+    }
+    .big-text p{
+        font-size: 12px;
+    }
+}
+
+
+@media (max-width:786px){
+    .social-media{
+        display: none;
+    }
+    .paragraph{
+        margin-bottom: 20px;
+    }
+    .flex{
+        flex-direction: column;
+        width: 100%;
+    }
+    .big-text{
+        width: 100%;
+        height: 220px;
+    }
+    .short-text{
+        width: 100%;
+        height: 400px;
+    }
+    #hero{
+        height: 1000px;
+    }
+    .whitish{
+        top: 200px;
+    }
+    .blur-background{
+        top: 5px;
+    }
+    .left{
+        justify-self: center;
+        width: 400px;
+    }
+
+}
+
+
+@media (max-width:470px){
+    .big-text h1{
+        font-size: 32px;
+        text-align: center;
+        line-height: 38px;
+    }
+    .big-text p{
+        text-align: center;
+    }
+
+    .big-text{
+        padding-top: 20px;
+    }
+}
+
+
+
+@media (max-width:430px){
+    .left{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .left .paragraph{
+        text-align: center;
+    }
+    .left .paragraph2{
+        text-align: center;
+    }
+    .blur-background{
+        width: 300px;
+        right: 3px;
+    }
+    .whitish{
+        right: 3px;
+    }
+    .big-text h1{
+        font-size: 22px;
+    }
+    .big-text p{
+        font-size: 10px;
+    }
+    .big-text{
+        height: 180px;
+    }
+}
+
+
+@media (max-width:355px){
+    .blur-background{
+        border-radius: 0px;
+        width: 100%;
+        padding-top: 20px;
+        padding-left: 20px;
+    }
+    .big-text{
+        height: 240px;
+        padding-top: 20px;
+    }
+    .whitish{
+        right: 50px;
+    }
 }
