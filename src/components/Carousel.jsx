@@ -36,7 +36,10 @@ const Carousel = () => {
                     </div>
                 </div>
             </div>
-            <div className="carousel-3"></div>
+            <div className="carousel-3">
+                <div className="show-img"></div>
+                <div className="text-content"></div>
+            </div>
         </div>
       </section>
     </>
