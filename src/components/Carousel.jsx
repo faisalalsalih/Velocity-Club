@@ -1,5 +1,6 @@
 import React from 'react'
 import arrow from "../assets/right-up.png"
+import golf from "../assets/Roger.jpg"
 
 const Carousel = () => {
   return (
@@ -18,7 +19,12 @@ const Carousel = () => {
                     <div className="circle1"><img src={arrow} alt="arrow" className='arrow' /></div>
                 </div>
             </div>
-            <div className="carousel-2"></div>
+            <div className="carousel-2">
+                <img src={golf} alt="golf" className='golf' />
+                <div className="cover">
+                    
+                </div>
+            </div>
             <div className="carousel-3"></div>
         </div>
       </section>
