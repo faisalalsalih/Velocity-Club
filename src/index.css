@@ -16,7 +16,7 @@
 
 #hero{
     width: 100%;
-    height: 100vh;
+    height: 800px;
     padding: 10px;
 }
 
@@ -742,4 +742,28 @@ nav{
     .whitish{
         right: 10px;
     }
+}
+
+
+
+
+/* ======== CAROUSEL SECTION STARTS FROM HERE ======= */
+
+#carousel{
+    width: 100%;
+    height: 400px;
+    background-color: green;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgb(71, 70, 70);
+}
+
+.carousel-container{
+    width: 100%;
+    height: 95%;
+    background-color: red;
+    max-width: 1800px;
+    justify-self: center;
 }
