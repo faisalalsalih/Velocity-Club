@@ -766,4 +766,41 @@ nav{
     background-color: red;
     max-width: 1800px;
     justify-self: center;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.carousel-1{
+    width: 400px;
+    height: 330px;
+    background-color: rgb(51, 253, 1);
+    padding: 6px;
+}
+.carousel-2{
+    width: 440px;
+    height: 330px;
+    background-color: blue;
+}
+.carousel-3{
+    width: 400px;
+    height: 330px;
+    background-color: yellow;
+}
+
+
+.shatingai{
+    width: 120px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.shatingai a{
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
 }
