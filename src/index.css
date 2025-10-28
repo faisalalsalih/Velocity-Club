@@ -777,6 +777,12 @@ nav{
     height: 330px;
     background-color: rgb(51, 253, 1);
     padding: 6px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+.carousel-1 h2{
+    margin-top: -30px;
 }
 .carousel-2{
     width: 440px;
@@ -803,4 +809,22 @@ nav{
     text-decoration: none;
     color: black;
     font-weight: 400;
+}
+
+.gato{
+    width: 140px;
+    height: 40px;
+    background-color: black;
+    padding: 2px;
+    border-radius: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.gato h3{
+    color: white;
+    font-weight: 300;
+    font-size: 14px;
 }
