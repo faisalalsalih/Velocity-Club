@@ -2,6 +2,7 @@ import React from 'react'
 import arrow from "../assets/right-up.png"
 import golf from "../assets/Roger.jpg"
 import white from "../assets/white-arrow.png"
+import covert from "../assets/tennis.jpg"
 
 const Carousel = () => {
   return (
@@ -37,7 +38,15 @@ const Carousel = () => {
                 </div>
             </div>
             <div className="carousel-3">
-                <div className="show-img"></div>
+                <div className="show-img">
+                    <img src={covert} alt="show-img" className='covert' />
+                    <div className="loli">
+                        <div className="indoor">
+                            <h6>indoor</h6>
+                        </div>
+                        <h2>Futal court</h2>
+                    </div>
+                </div>
                 <div className="text-content"></div>
             </div>
         </div>

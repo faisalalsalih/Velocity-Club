@@ -911,4 +911,48 @@ nav{
     justify-self: center;
     border-radius: 12px;
     margin-top: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.covert{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    z-index: 4;
+}
+
+.loli{
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+    position: absolute;
+    top: 0;
+    z-index: 8;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.indoor{
+    width: 70px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.indoor h6{
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.loli h2{
+    color: white;
+    font-weight: 300;
 }
