@@ -1,10 +1,12 @@
-import React from 'react'
+import React, { useState } from 'react'
 import arrow from "../assets/right-up.png"
 import golf from "../assets/Roger.jpg"
 import white from "../assets/white-arrow.png"
 import covert from "../assets/tennis.jpg"
 
 const Carousel = () => {
+    const [ishover, setishover] = useState(false);
+
   return (
     <>
       <section id='carousel'>
@@ -39,15 +41,25 @@ const Carousel = () => {
             </div>
             <div className="carousel-3">
                 <div className="show-img">
-                    <img src={covert} alt="show-img" className='covert' />
-                    <div className="loli">
+                    <img src={covert} alt="show-img" className={`covert ${ishover ? 'scale-up' : 'scale-down'}`} />
+                    <div className="loli" onMouseEnter={() => {setishover(true)}} onMouseLeave={() => {setishover(false)}}>
                         <div className="indoor">
                             <h6>indoor</h6>
                         </div>
                         <h2>Futal court</h2>
                     </div>
                 </div>
-                <div className="text-content"></div>
+                <div className="text-content">
+                    <p>Explore the ideal space to play,<br />train, and reach new heights<br />Where Passion Meets</p>
+                    <div className="directions">
+                        <div className="left-direction">
+
+                        </div>
+                        <div className="right-direction">
+                            
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
       </section>
