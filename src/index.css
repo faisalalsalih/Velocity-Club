@@ -978,6 +978,9 @@ nav{
     background-color: white;
     border-radius: 50%;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .left-direction:hover{
     background-color: black;
@@ -991,6 +994,9 @@ nav{
     background-color: black;
     border-radius: 50%;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .right-direction:hover{
     background-color: white;
@@ -1015,4 +1021,28 @@ nav{
 .text-content p{
     font-weight: 500;
     line-height: 22px;
+}
+
+
+.left-arrow{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.right-arrow{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    color: white;
+}
+
+.left-direction:hover .left-arrow{
+    color: white;
+    transition: all 400ms ease-in-out;
+}
+
+.right-direction:hover .right-arrow{
+    color: black;
+    transition: all 400ms ease-in-out;
 }

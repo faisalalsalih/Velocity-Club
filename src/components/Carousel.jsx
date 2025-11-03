@@ -3,6 +3,7 @@ import arrow from "../assets/right-up.png"
 import golf from "../assets/Roger.jpg"
 import white from "../assets/white-arrow.png"
 import covert from "../assets/tennis.jpg"
+import { GoArrowLeft, GoArrowRight } from "react-icons/go";
 
 const Carousel = () => {
     const [ishover, setishover] = useState(false);
@@ -53,10 +54,10 @@ const Carousel = () => {
                     <p>Explore the ideal space to play,<br />train, and reach new heights<br />Where Passion Meets</p>
                     <div className="directions">
                         <div className="left-direction">
-
+                            <GoArrowLeft className='left-arrow' />
                         </div>
                         <div className="right-direction">
-                            
+                            <GoArrowRight className='right-arrow'/>
                         </div>
                     </div>
                 </div>
