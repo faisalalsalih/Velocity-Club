@@ -7,10 +7,29 @@ import covert2 from "../assets/tennis2.jpg"
 import covert3 from "../assets/tennis3.jpg"
 import covert4 from "../assets/tennis4.jpg"
 import covert5 from "../assets/tennis5.jpg"
-
 import { GoArrowLeft, GoArrowRight } from "react-icons/go";
 
+
+
+
+
+
 const Carousel = () => {
+
+    const images = [covert, covert2, covert3, covert4, covert5];
+    const [currentindex, setcurrentindex] = useState(0);
+
+
+
+    const handleNext = () => {
+        setcurrentindex((previndex) => (previndex + 1) % images.length);
+    }
+
+    const handleprev = () => {
+        setcurrentindex((previndex) => previndex === 0 ? images.length - 1 : previndex - 1)
+    }
+
+
     const [ishover, setishover] = useState(false);
 
   return (
@@ -47,7 +66,7 @@ const Carousel = () => {
             </div>
             <div className="carousel-3">
                 <div className="show-img">
-                    <img src={covert} alt="show-img" className={`covert ${ishover ? 'scale-up' : 'scale-down'}`} />
+                    <img src={images[currentindex]} alt="show-img" className={`covert ${ishover ? 'scale-up' : 'scale-down'}`} />
                     <div className="loli" onMouseEnter={() => {setishover(true)}} onMouseLeave={() => {setishover(false)}}>
                         <div className="indoor">
                             <h6>indoor</h6>
@@ -58,11 +77,11 @@ const Carousel = () => {
                 <div className="text-content">
                     <p>Explore the ideal space to play,<br />train, and reach new heights<br />Where Passion Meets</p>
                     <div className="directions">
-                        <div className="left-direction">
-                            <GoArrowLeft className='left-arrow' />
+                        <div className="left-direction" onClick={handleNext}>
+                            <GoArrowLeft className='left-arrow' onClick={handleNext} />
                         </div>
-                        <div className="right-direction">
-                            <GoArrowRight className='right-arrow'/>
+                        <div className="right-direction" onClick={handleprev}>
+                            <GoArrowRight className='right-arrow' onClick={handleprev}/>
                         </div>
                     </div>
                 </div>
