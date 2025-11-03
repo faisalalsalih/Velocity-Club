@@ -3,6 +3,11 @@ import arrow from "../assets/right-up.png"
 import golf from "../assets/Roger.jpg"
 import white from "../assets/white-arrow.png"
 import covert from "../assets/tennis.jpg"
+import covert2 from "../assets/tennis2.jpg"
+import covert3 from "../assets/tennis3.jpg"
+import covert4 from "../assets/tennis4.jpg"
+import covert5 from "../assets/tennis5.jpg"
+
 import { GoArrowLeft, GoArrowRight } from "react-icons/go";
 
 const Carousel = () => {
