@@ -1433,7 +1433,7 @@ nav{
 .counters{
     width: 100%;
     height: 40px;
-    background-color: yellow;
+    /* background-color: yellow; */
     padding: 3px;
     margin-top: 80px;
     display: flex;
@@ -1549,12 +1549,124 @@ nav{
 
 .asterisk{
     display: flex;
-    justify-content: center;
     align-items: center;
     gap: 20px;
+    padding: 4px;
 }
 
 .asterisk p{
     font-weight: 500;
     color: rgb(88, 87, 87);
+}
+
+/* Responsive the Discover Section Here */
+@media (max-width:1200px){
+    .plus{
+        margin-left: 40px;
+    }
+}
+
+@media (max-width:1150px){
+    .discovery2 h1{
+        font-size: 20px;
+    }
+    .discovery2 p{
+        font-size: 12px;
+    }
+}
+
+@media (max-width:1000px){
+    .discover-container{
+        width: 100%;
+    }
+}
+
+@media (max-width:930px){
+    .discover-container{
+        flex-direction: column;
+        height: auto;
+    }
+    #discover{
+        height: auto;
+    }
+    .discover-1{
+        width: 100%;
+    }
+    .discovery2{
+        width: 70%;
+    }
+    .discovery2 h1{
+        font-size: 32px;
+    }
+    .discovery2 p{
+        font-size: 16px;
+    }
+    .discover-2{
+        width: 100%;
+    }
+    .asterisk{
+        justify-content: center;
+    }
+}
+
+
+
+@media (max-width:630px){
+    .discovery2 h1{
+        font-size: 26px;
+    }
+    .tuxedo h1{
+        font-size: 42px;
+    }
+}
+
+
+@media (max-width:540px){
+    .discovery2 h1{
+        font-size: 20px;
+    }
+    .discovery2 p{
+        font-size: 12px;
+    }
+    .tuxedo h1{
+        text-align: center;
+        font-size: 32px;
+    }
+    .asterisk p{
+        font-size: 12px;
+    }
+    .all-links{
+        display: none;
+    }
+}
+
+
+
+@media (max-width:440px){
+    .discover-1b{
+        flex-direction: column;
+        height: 500px;
+    }
+    .discovery2{
+        width: 100%;
+        height: 50%;
+    }
+    .discovery1{
+        width: 100%;
+    }
+    .discovery-button{
+        margin-top: 6px;
+    }
+    .counters{
+        margin-top: 10px;
+    }
+    .tuxedo h1{
+        font-size: 22px;
+    }
+    .asterisk p{
+        display: none;
+    }
+    .staro{
+        display: none;
+    }
 }
