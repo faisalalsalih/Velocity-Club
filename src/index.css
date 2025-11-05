@@ -1349,7 +1349,7 @@ nav{
 }
 
 .discover-1b{
-    width: 600px;
+    width: 100%;
     height: 450px;
     background-color: #6e997e;
     justify-self: center;
@@ -1378,7 +1378,7 @@ nav{
 
 
 .discovery2{
-    width: calc(100% - 300px);
+    width: 50%;
     height: 95%;
     background-color: red;
     padding: 3px;
@@ -1405,7 +1405,7 @@ nav{
     align-items: center;
     gap: 10px;
     padding: 2px;
-    margin-top: 120px;
+    margin-top: 50px;
 }
 
 .discovery-button h6{
@@ -1482,4 +1482,79 @@ nav{
     color: white;
     font-size: 18px;
     font-weight: 400;
+}
+
+.tuxedo{
+    width: 100%;
+    height: 50%;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1px;
+}
+.tuxedo h1{
+    font-size: 52px;
+}
+
+.asterisk{
+    width: 100%;
+    height: 50%;
+    background-color: orange;
+    padding: 1px;
+}
+
+.plus{
+    width: 160px;
+    height: 210px;
+    background-color: yellow;
+    border-radius: 22px;
+    /* overflow: hidden; */
+    position: relative;
+    margin-left: 100px;
+}
+.plusimage{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    z-index: 2;
+    border-radius: 22px;
+}
+
+.gola-plus{
+    width: 60px;
+    height: 60px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    left: -35px;
+    top: 70px;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.addition{
+    color: white;
+}
+
+.staro{
+    width: 25px;
+    height: 25px;
+}
+
+
+.asterisk{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.asterisk p{
+    font-weight: 500;
+    color: rgb(88, 87, 87);
 }

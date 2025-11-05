@@ -7,6 +7,9 @@ import player4 from "../assets/player4.jpg"
 import player5 from "../assets/player5.jpg"
 import arrowimg from "../assets/right-up.png"
 import { GoArrowLeft, GoArrowRight } from "react-icons/go";
+import plusimage from "../assets/athelete.jpg"
+import { FiPlus } from "react-icons/fi";
+import { RiAsterisk } from "react-icons/ri";
 
 
 const Discover = () => {
@@ -79,7 +82,24 @@ const Discover = () => {
                   </div>
                 </div>
             </div>
-            <div className="discover-2"></div>
+            <div className="discover-2">
+              <div className="tuxedo">
+                <h1>Discover Excellence<br />in Courts,in Fields,<br />and Beyond</h1>
+              </div>
+              <div className="asterisk">
+                <div className="plus">
+                  <img src={plusimage} alt="plus" className='plusimage' />
+                  <div className="gola-plus">
+                    <FiPlus  className='addition'/>
+                  </div>
+                </div>
+                <div className="asterisk2">
+                  <RiAsterisk className='staro'/>
+                  <p>Our top-tier sports facilities feature a<br />range of courts and fields,including<br />tennis, basketball, and football, perfect<br />for both casuals players and competetive<br />atheletes</p>
+                </div>
+              </div>
+
+            </div>
         </div>
       </section>
     </>
