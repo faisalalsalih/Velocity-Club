@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import { IoSearch } from "react-icons/io5";
 import { FiArrowUpRight } from "react-icons/fi";
 import Card from './Card';
@@ -33,6 +33,17 @@ const Facilities = () => {
     {id: 11, title: 'Runing Areas', img: card11, extra: false},
     {id: 12, title: 'Tennis Courts', img: card12, extra: false},
   ]
+
+
+  const [page, setpage] = useState(0);
+  const cardperpage = 4;
+
+  const startindex = page * cardperpage;
+  const visiblecards = cardData.slice(startindex, startindex + cardperpage);
+
+
+
+
   return (
     <>
       <section id='facilities'>
