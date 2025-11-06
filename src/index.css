@@ -1793,6 +1793,10 @@ nav{
     height: 450px;
     background-color: green;
     padding: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
 }
 
 
@@ -1818,7 +1822,7 @@ nav{
 .card-overlay{
     width: 100%;
     height: 100%;
-    background-color: blue;
+    /* background-color: blue; */
     position: absolute;
     top: 0;
     z-index: 4;
@@ -1878,4 +1882,27 @@ nav{
 .final-touch h1{
     color: white;
     font-weight: 300;
+}
+
+
+.right-tag{
+    width: 100px;
+    height: 30px;
+    border-radius: 22px;
+    border: 1px solid white;
+    justify-self: end;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 150px;
+}
+.right-tag h6{
+    color: white;
+    font-size: 12px;
+    font-weight: 300;
+}
+.bottom-tag h2{
+    color: white;
+    font-weight: 300;
+    font-size: 22px;
 }

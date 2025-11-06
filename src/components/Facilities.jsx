@@ -3,6 +3,7 @@ import { IoSearch } from "react-icons/io5";
 import { FiArrowUpRight } from "react-icons/fi";
 import Card from './Card';
 
+
 const Facilities = () => {
   return (
     <>
