@@ -95,7 +95,7 @@ const Facilities = () => {
 
             <div className="cards-section">
                 {visiblecards.map((card, index) => (
-                  <Card key={index} img={card.img} title={card.title} extra={card.extra}/>
+                  <Card key={index} img={card.img} bottomtext={card.bottomtext} tag={card.tag} extratext={card.extratext} extra={card.extra}/>
                 ))}
             </div>
 

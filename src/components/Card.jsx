@@ -27,14 +27,14 @@ const Card = ({img, extra, tag, bottomtext, extratext}) => {
             </div>
 
             <div className="final-touch">
-              <h1>{extratext}</h1>
+              <h1 dangerouslySetInnerHTML={{__html: extratext}}></h1>
             </div>
           </div>
           }
 
           {!extra && 
           <div className="bottom-tag">
-            <h2>{bottomtext}</h2>
+            <h2 dangerouslySetInnerHTML={{__html: bottomtext}}></h2>
           </div>
           }
 
