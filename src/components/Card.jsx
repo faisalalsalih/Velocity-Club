@@ -1,17 +1,17 @@
-import React, { useState } from 'react'
+import React, { forwardRef, useState } from 'react'
 // import demo from "../assets/tennis4.jpg"
 import { GoArrowUpRight } from "react-icons/go";
 
 
 
-const Card = ({img, extra, tag, bottomtext, extratext}) => {
+const Card = forwardRef(({img, extra, tag, bottomtext, extratext}, ref) => {
 
 
   const [hover, sethover] = useState(false);
 
   return (
     <>
-      <div id="card">
+      <div id="card" ref={ref}>
         <img src={img} alt="demo" className={`demo ${hover ? 'scale-up': 'scale-down'}`}/>
         <div className="card-overlay" onMouseEnter={() => sethover(true)} onMouseLeave={() => sethover(false)}>
           <div className="right-tag"><h6>{tag}</h6></div>
@@ -47,6 +47,6 @@ const Card = ({img, extra, tag, bottomtext, extratext}) => {
       </div>
     </>
   )
-}
+});
 
 export default Card

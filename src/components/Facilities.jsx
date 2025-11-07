@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, {useRef, useState} from 'react'
 import { IoSearch } from "react-icons/io5";
 import { FiArrowUpRight } from "react-icons/fi";
 import Card from './Card';
@@ -16,6 +16,8 @@ import card11 from "../assets/card11.jpg"
 import card12 from "../assets/card12.jpg"
 import { GoArrowLeft } from "react-icons/go";
 import { GoArrowRight } from "react-icons/go";
+import { gsap } from "gsap"
+import { useGSAP } from "@gsap/react"
 
 
 
@@ -58,6 +60,24 @@ const Facilities = () => {
   }
 
 
+  const cardref = useRef([]);
+  cardref.current = [];
+
+
+  useGSAP(() => {
+  cardref.current.forEach((el, i) => {
+    gsap.from(el, {
+      y: 20,
+      opacity: 0,
+      duration: 0.5,
+      delay: i * 0.1,
+      ease: "power4.out"
+    });
+  });
+}, [page]);
+
+
+
 
 
   return (
@@ -95,7 +115,7 @@ const Facilities = () => {
 
             <div className="cards-section">
                 {visiblecards.map((card, index) => (
-                  <Card key={index} img={card.img} bottomtext={card.bottomtext} tag={card.tag} extratext={card.extratext} extra={card.extra}/>
+                  <Card ref={el => cardref.current[index] = el} key={index} img={card.img} bottomtext={card.bottomtext} tag={card.tag} extratext={card.extratext} extra={card.extra}/>
                 ))}
             </div>
 
