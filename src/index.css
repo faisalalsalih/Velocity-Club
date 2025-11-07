@@ -1832,7 +1832,12 @@ nav{
     align-items: center;
     padding-bottom: 30px;
     padding-top: 10px;
+    padding-right: 4px;
+    padding-left: 4px;
+    cursor: pointer;
 }
+
+
 
 .hidden-gem{
     width: 95%;
@@ -1882,6 +1887,7 @@ nav{
 .final-touch h1{
     color: white;
     font-weight: 300;
+    font-size: 20px;
 }
 
 
@@ -1952,4 +1958,15 @@ nav{
     font-weight: 500;
     font-size: 14px;
     line-height: 20px;
+}
+
+
+.demo.scale-up{
+    transform: scale(1.1);
+    transition: all 400ms ease-in-out;
+}
+
+.demo.scale-down{
+    transform: scale(1);
+    transition: all 400ms ease-in-out;
 }

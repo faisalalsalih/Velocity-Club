@@ -1,15 +1,19 @@
-import React from 'react'
+import React, { useState } from 'react'
 // import demo from "../assets/tennis4.jpg"
 import { GoArrowUpRight } from "react-icons/go";
 
 
 
 const Card = ({img, extra, tag, bottomtext, extratext}) => {
+
+
+  const [hover, sethover] = useState(false);
+
   return (
     <>
       <div id="card">
-        <img src={img} alt="demo" className='demo' />
-        <div className="card-overlay">
+        <img src={img} alt="demo" className={`demo ${hover ? 'scale-up': 'scale-down'}`}/>
+        <div className="card-overlay" onMouseEnter={() => sethover(true)} onMouseLeave={() => sethover(false)}>
           <div className="right-tag"><h6>{tag}</h6></div>
 
           { extra && 
