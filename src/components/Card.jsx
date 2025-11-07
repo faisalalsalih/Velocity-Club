@@ -4,20 +4,20 @@ import { GoArrowUpRight } from "react-icons/go";
 
 
 
-const Card = ({title, img, extra}) => {
+const Card = ({img, extra, tag, bottomtext, extratext}) => {
   return (
     <>
       <div id="card">
         <img src={img} alt="demo" className='demo' />
         <div className="card-overlay">
-          <div className="right-tag"><h6>athelete zone</h6></div>
+          <div className="right-tag"><h6>{tag}</h6></div>
 
           { extra && 
            <div className="hidden-gem">
             <div className="playground">
 
               <div className="roundo">
-              <h6>Play-ground</h6>
+              <h6>Play Ground</h6>
               </div>
               
               <div className="pointer">
@@ -27,14 +27,14 @@ const Card = ({title, img, extra}) => {
             </div>
 
             <div className="final-touch">
-              <h1>{title}</h1>
+              <h1>{extratext}</h1>
             </div>
           </div>
           }
 
           {!extra && 
           <div className="bottom-tag">
-            <h2>State of the Art courts<br />and Fields for All Atheletes</h2>
+            <h2>{bottomtext}</h2>
           </div>
           }
 

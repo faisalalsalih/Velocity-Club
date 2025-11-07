@@ -23,19 +23,19 @@ const Facilities = () => {
 
 
   const cardData = [
-    {id: 1, title: 'Atheletic Zone', img: card1, extra: false},
-    {id: 2, title: 'Training Ground', img: card2, extra: true},
-    {id: 3, title: 'Runing Areas', img: card3, extra: false},
-    {id: 4, title: 'Tennis Courts', img: card4, extra: false},
-    {id: 5, title: 'Atheletic Zone', img: card5, extra: false},
-    {id: 6, title: 'Training Ground', img: card6, extra: true},
-    {id: 7, title: 'Runing Areas', img: card7, extra: false},
-    {id: 8, title: 'Tennis Courts', img: card8, extra: false},
-    {id: 9, title: 'Atheletic Zone', img: card9, extra: false},
-    {id: 10, title: 'Training Ground', img: card10, extra: true},
-    {id: 11, title: 'Runing Areas', img: card11, extra: false},
-    {id: 12, title: 'Tennis Courts', img: card12, extra: false},
-  ]
+  {id: 1, img: card1, extra: false, tag: 'Athletic Zone', bottomtext: 'Premium-grade Courts<br />and Fields for All Athletes'},
+  {id: 2, img: card2, extra: true, tag: 'Training Ground', bottomtext: 'Elite Sports Facilities<br />for Skill and Strength', extratext: 'High-Performance Zones<br />for Focused Training'},
+  {id: 3, img: card3, extra: false, tag: 'Running Track', bottomtext: 'Versatile Track Systems<br />Designed for Speed and Flow'},
+  {id: 4, img: card4, extra: false, tag: 'Tennis Court', bottomtext: 'Precision Turf Courts<br />for Competitive Play'},
+  {id: 5, img: card5, extra: false, tag: 'Fitness Arena', bottomtext: 'State-of-the-Art Spaces<br />for Every Athlete’s Need'},
+  {id: 6, img: card6, extra: true, tag: 'Recovery Zone', bottomtext: 'Smart Recovery Spaces<br />for Post-Workout Relief', extratext: 'Hydrotherapy Pods<br />and Relaxation Lounges'},
+  {id: 7, img: card7, extra: false, tag: 'Outdoor Field', bottomtext: 'Multi-Sport Grounds<br />Built for All Conditions'},
+  {id: 8, img: card8, extra: false, tag: 'Youth Circuit', bottomtext: 'Safe Play Areas<br />for Young Rising Stars'},
+  {id: 9, img: card9, extra: false, tag: 'Endurance Zone', bottomtext: 'Long-Distance Tracks<br />for Stamina and Power'},
+  {id: 10, img: card10, extra: true, tag: 'Wellness Lounge', bottomtext: 'Relaxation Facilities<br />for Mind and Body Reset', extratext: 'Massage Suites<br />and Calm Retreats'},
+  {id: 11, img: card11, extra: false, tag: 'Skill Lab', bottomtext: 'Focused Drill Stations<br />for Technique Refinement'},
+  {id: 12, img: card12, extra: false, tag: 'Game Grounds', bottomtext: 'Event-Ready Fields<br />for Match-Day Action'},
+]
 
 
   const [page, setpage] = useState(0);
