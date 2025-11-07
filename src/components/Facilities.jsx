@@ -14,6 +14,9 @@ import card9 from "../assets/card9.jpg"
 import card10 from "../assets/card10.jpg"
 import card11 from "../assets/card11.jpg"
 import card12 from "../assets/card12.jpg"
+import { GoArrowLeft } from "react-icons/go";
+import { GoArrowRight } from "react-icons/go";
+
 
 
 const Facilities = () => {
@@ -40,6 +43,19 @@ const Facilities = () => {
 
   const startindex = page * cardperpage;
   const visiblecards = cardData.slice(startindex, startindex + cardperpage);
+
+
+  const handlenext = () => {
+    if(startindex + cardperpage < cardData.length){
+      setpage(prev => prev + 1);
+    }
+  }
+
+  const handleprev = () => {
+    if(page > 0){
+      setpage(prev => prev - 1);
+    }
+  }
 
 
 
@@ -78,7 +94,26 @@ const Facilities = () => {
 
 
             <div className="cards-section">
-                <Card />
+                {visiblecards.map((card, index) => (
+                  <Card key={index} img={card.img} title={card.title} extra={card.extra}/>
+                ))}
+            </div>
+
+
+
+
+            <div className="akhwa-dekhwa">
+              <div className="arrowkhwa">
+                <div className="boom1">
+                  <GoArrowLeft className='faleft' onClick={handleprev}/>
+                </div>
+                <div className="boom2">
+                  <GoArrowRight className='faright' onClick={handlenext}/>
+                </div>
+              </div>
+              <div className="likai">
+                <p>Reserve a court for individual paractices,team sessions,or<br />personilzed coaching to elevate your performance</p>
+              </div>
             </div>
 
         </div>
