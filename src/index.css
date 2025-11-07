@@ -1970,3 +1970,12 @@ nav{
     transform: scale(1);
     transition: all 400ms ease-in-out;
 }
+
+
+
+
+/* ===== RESPONSIVE THE FACILITIES SECTION HERE ===== */
+
+@media (max-width:1230px){
+    
+}
