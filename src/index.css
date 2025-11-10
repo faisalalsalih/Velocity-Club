@@ -1229,6 +1229,7 @@ nav{
     background-color: rgb(119, 132, 133);
     justify-self: center;
     margin-bottom: 4px;
+    max-width: 1800px;
 }
 
 
@@ -2102,4 +2103,15 @@ nav{
         font-size: 8px;
         line-height: 10px;
     }
+}
+
+
+
+/* ========== Swiper Section Starts from Here ========= */
+#swiper{
+    width: 100%;
+    height: 1000px;
+    background-color: green;
+    max-width: 1800px;
+    justify-self: center;
 }

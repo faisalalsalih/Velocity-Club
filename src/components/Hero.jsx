@@ -1,5 +1,5 @@
 import React from 'react'
-import heroimage from "../assets/Hero.jpg"
+import heroimage from "../assets/test.jpg"
 import logos from "../assets/trophy.png"
 import menu from "../assets/menu.png"
 import search from "../assets/search.png"

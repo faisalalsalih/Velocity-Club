@@ -4,6 +4,7 @@ import Carousel from './components/Carousel'
 import Hr from "./components/Hr"
 import Discover from './components/Discover'
 import Facilities from './components/Facilities'
+import Swiper from './components/Swiper'
 
 
 
@@ -15,6 +16,7 @@ const App = () => {
       <Hr />
       <Discover />
       <Facilities />
+      <Swiper />
     </>
   )
 }
