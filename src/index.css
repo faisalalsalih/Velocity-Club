@@ -2110,8 +2110,80 @@ nav{
 /* ========== Swiper Section Starts from Here ========= */
 #swiper{
     width: 100%;
-    height: 600px;
+    height: 650px;
     background-color: green;
     max-width: 1800px;
     justify-self: center;
+}
+
+
+.heading{
+    width: 100%;
+    height: 30%;
+    background-color: red;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.heading h1{
+    font-size: 52px;
+    font-weight: 400;
+}
+
+
+
+.swiper-control{
+    width: 100%;
+    height: 70%;
+    background-color: grey;
+    padding-left: 40px;
+    display: flex;
+    align-items: center;
+    overflow-x: auto;
+}
+
+.swipe1{
+    width: 46vw;
+    height: 400px;
+    background-color: chartreuse;
+    border-radius: 22px;
+    overflow: hidden;
+    position: relative;
+}
+
+
+.swipe-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    z-index: 2;
+}
+
+
+.parda{
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+    position: absolute;
+    top: 0;
+    z-index: 4;
+    padding: 20px;
+}
+
+.parda1{
+    width: 250px;
+    height: 170px;
+    background-color: yellow;
+}
+
+.circlo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #4b4d3d;
+    border: 2px solid white;
 }
