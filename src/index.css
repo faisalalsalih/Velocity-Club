@@ -1681,16 +1681,18 @@ nav{
 /* ====== Facilities Section Start from here ====== */
 #facilities{
     width: 100%;
-    height: 100vh;
+    height: fit-content;
     /* background-color: green; */
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
 }
 
 .facilities-container{
     width: 95%;
-    height: 95%;
+    height: auto;
     background-color: #e7eded;
     max-width: 1800px;
     border-radius: 22px;
