@@ -5,6 +5,8 @@ import star1 from "../assets/star1.jpg"
 import star2 from "../assets/star2.jpg"
 import star3 from "../assets/star3.jpg"
 import plus from "../assets/plus.png"
+import { FiArrowUpRight } from "react-icons/fi";
+
 
 const Swiper = () => {
   return (
@@ -33,7 +35,17 @@ const Swiper = () => {
                   </div>
                 </div>
               </div>
-              <div className="parda2"></div>
+              <div className="parda2">
+                <div className="parda2a">
+                  <h1>Experience</h1>
+                  <p>Our Coaching Staff has<br />over 12 years of<br />experience</p>
+                </div>
+                <div className="parda2b">
+                  <div className="roundooo">
+                    <FiArrowUpRight className='arrowrightoo'/>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
           <div className="swipe2"></div>
