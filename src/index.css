@@ -2197,13 +2197,14 @@ nav{
 }
 
 .widebar{
-    width: 200px;
+    width: 180px;
     height: 50px;
     background-color: white;
     border-radius: 22px;
     padding: 6px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 
@@ -2232,8 +2233,8 @@ nav{
 
 
 .widebar2{
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     background-color: black;
     border-radius: 50%;
     display: flex;
@@ -2243,6 +2244,6 @@ nav{
 }
 
 .suss{
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
 }
