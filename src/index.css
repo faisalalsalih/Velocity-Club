@@ -2178,6 +2178,10 @@ nav{
     width: 250px;
     height: 170px;
     background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
 }
 
 .circlo{
@@ -2187,3 +2191,12 @@ nav{
     background-color: #4b4d3d;
     border: 2px solid white;
 }
+
+.widebar{
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    border-radius: 22px;
+    padding: 6px;
+}
+

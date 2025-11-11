@@ -15,6 +15,7 @@ const Swiper = () => {
             <div className="parda">
               <div className="parda1">
                 <div className="circlo"></div>
+                <div className="widebar"></div>
               </div>
               <div className="parda2"></div>
             </div>
