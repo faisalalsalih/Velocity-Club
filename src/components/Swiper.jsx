@@ -25,6 +25,15 @@ const Swiper = () => {
       scrollLeft = slider.scrollLeft; 
     };
 
+
+    const mouseMoveHandler = (e) => {
+      if (!isDraging) return;
+      e.preventDefault();
+      const x = e.pageX - slider.offsetLeft;
+      const walk = (x - startX) * 1.5;
+      slider.scrollLeft = scrollLeft - walk;
+    };
+
     const mouseLeaveHandler = () => {
       isDraging = false;
       slider.classList.remove('dragging');
@@ -35,13 +44,7 @@ const Swiper = () => {
       slider.classList.remove('dragging');
     };
 
-    const mouseMoveHandler = (e) => {
-      if (!isDraging) return;
-      e.preventDefault();
-      const x = e.pageX - slider.offsetLeft;
-      const walk = (x - startX) * 2;
-      slider.scrollLeft = scrollLeft - walk;
-    };
+    
 
 
     slider.addEventListener('mousedown', mouseDownHandler);
