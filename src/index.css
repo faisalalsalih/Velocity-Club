@@ -2110,7 +2110,7 @@ nav{
 /* ========== Swiper Section Starts from Here ========= */
 #swiper{
     width: 100%;
-    height: 650px;
+    height: 700px;
     background-color: green;
     max-width: 1800px;
     justify-self: center;
@@ -2140,10 +2140,26 @@ nav{
     height: 70%;
     background-color: grey;
     padding-left: 40px;
+    padding-right: 40px;
     display: flex;
     align-items: center;
     overflow-x: auto;
+    overflow-y: hidden;
+    cursor: grab;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    gap: 30px;
 }
+.swiper-control.dragging{
+    cursor: grabbing;
+}
+
+
+.swiper-control::-webkit-scrollbar{
+    display: none;
+}
+
+
 
 .swipe1{
     min-width: 660px;
@@ -2301,3 +2317,13 @@ nav{
     width: calc(90px / 2);
     height: calc(90px / 2);
 }
+
+
+
+.swipe2{
+    min-width: 1000px;
+    height: 95%;
+    border-radius: 22px;
+    background-color: orange;
+}
+

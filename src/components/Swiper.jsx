@@ -9,6 +9,53 @@ import { FiArrowUpRight } from "react-icons/fi";
 
 
 const Swiper = () => {
+
+  const scrollRef = React.useRef(null);
+  let isDraging = false;
+  let startX;
+  let scrollLeft;
+
+  React.useEffect(() => {
+    const slider = scrollRef.current;
+
+    const mouseDownHandler = (e) => {
+      isDraging = true;
+      slider.classList.add('dragging');
+      startX = e.pageX - slider.offsetLeft;
+      scrollLeft = slider.scrollLeft; 
+    };
+
+    const mouseLeaveHandler = () => {
+      isDraging = false;
+      slider.classList.remove('dragging');
+    };
+
+    const mouseUpHandler = () => {
+      isDraging = false;
+      slider.classList.remove('dragging');
+    };
+
+    const mouseMoveHandler = (e) => {
+      if (!isDraging) return;
+      e.preventDefault();
+      const x = e.pageX - slider.offsetLeft;
+      const walk = (x - startX) * 2;
+      slider.scrollLeft = scrollLeft - walk;
+    };
+    slider.addEventListener('mousedown', mouseDownHandler);
+    slider.addEventListener('mouseleave', mouseLeaveHandler);
+    slider.addEventListener('mouseup', mouseUpHandler);
+    slider.addEventListener('mousemove', mouseMoveHandler);
+
+
+    return () => {
+      slider.removeEventListener('mousedown', mouseDownHandler);
+      slider.removeEventListener('mouseleave', mouseLeaveHandler);
+      slider.removeEventListener('mouseup', mouseUpHandler);
+      slider.removeEventListener('mousemove', mouseMoveHandler);
+    }
+  },[])
+
   return (
     <>
       <section id='swiper'>
@@ -16,7 +63,7 @@ const Swiper = () => {
           <h1>We aim to empower atheletes<br />by instilling confidence</h1>          
         </div>
 
-        <div className="swiper-control">
+        <div className="swiper-control" ref={scrollRef}>
           <div className="swipe1">
             <img src={swipe} alt="swipe-img1" className='swipe-img' />
             <div className="parda">
@@ -48,7 +95,9 @@ const Swiper = () => {
               </div>
             </div>
           </div>
-          <div className="swipe2"></div>
+          <div className="swipe2">
+            
+          </div>
         </div>
       </section>
     </>
