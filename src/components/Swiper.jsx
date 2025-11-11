@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useRef} from 'react'
 import swipe from "../assets/swipe.jpg"
 import badge from "../assets/badge.png"
 import star1 from "../assets/star1.jpg"
@@ -10,12 +10,12 @@ import { FiArrowUpRight } from "react-icons/fi";
 
 const Swiper = () => {
 
-  const scrollRef = React.useRef(null);
+  const scrollRef = useRef(null);
   let isDraging = false;
   let startX;
   let scrollLeft;
 
-  React.useEffect(() => {
+  useEffect(() => {
     const slider = scrollRef.current;
 
     const mouseDownHandler = (e) => {
@@ -42,6 +42,8 @@ const Swiper = () => {
       const walk = (x - startX) * 2;
       slider.scrollLeft = scrollLeft - walk;
     };
+
+
     slider.addEventListener('mousedown', mouseDownHandler);
     slider.addEventListener('mouseleave', mouseLeaveHandler);
     slider.addEventListener('mouseup', mouseUpHandler);

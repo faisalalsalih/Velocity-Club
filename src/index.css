@@ -2152,6 +2152,7 @@ nav{
 }
 .swiper-control.dragging{
     cursor: grabbing;
+    user-select: none;
 }
 
 
