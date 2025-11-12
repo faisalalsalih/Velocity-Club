@@ -6,6 +6,8 @@ import star2 from "../assets/star2.jpg"
 import star3 from "../assets/star3.jpg"
 import plus from "../assets/plus.png"
 import { FiArrowUpRight } from "react-icons/fi";
+import dialer from "../assets/Dialer.jpg"
+import { FaPlus } from "react-icons/fa6";
 
 
 const Swiper = () => {
@@ -101,7 +103,18 @@ const Swiper = () => {
             </div>
           </div>
           <div className="swipe2">
-            
+            <div className="swipe2a">
+              <div className="dial">
+                <img src={dialer} alt="dialer" className='dialer' />
+                <div className="dialer-overlay">
+                  <div className="cross-round">
+                    <FaPlus className='faplus'/>
+                  </div>
+                  <h1>Comprehensive<br />Solutions</h1>
+                </div>
+              </div>
+            </div>
+            <div className="swipe2b"></div>
           </div>
         </div>
       </section>
