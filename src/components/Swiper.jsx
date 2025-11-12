@@ -8,6 +8,10 @@ import plus from "../assets/plus.png"
 import { FiArrowUpRight } from "react-icons/fi";
 import dialer from "../assets/Dialer.jpg"
 import { FaPlus } from "react-icons/fa6";
+import Profile1 from "../assets/profile1.jpg"
+import Profile2 from "../assets/profile2.jpg"
+import Profile3 from "../assets/profile3.jpg"
+import Profile4 from "../assets/profile4.jpg"
 
 
 const Swiper = () => {
@@ -32,7 +36,7 @@ const Swiper = () => {
       if (!isDraging) return;
       e.preventDefault();
       const x = e.pageX - slider.offsetLeft;
-      const walk = (x - startX) * 1.5;
+      const walk = (x - startX) * 2;
       slider.scrollLeft = scrollLeft - walk;
     };
 
@@ -113,8 +117,46 @@ const Swiper = () => {
                   <h1>Comprehensive<br />Solutions</h1>
                 </div>
               </div>
+
+              <div className="details1">
+                <img src={Profile1} alt="details1-pic" className='details1-pic' />
+                <div className="details-overlay">
+                  <div className="patta">
+                    <div className="circular-sphere">
+                      <FaPlus className='faplus'/>
+                    </div>
+
+                    <div className="profile-circle">
+                      <img src={Profile2} alt="player2-pic" className='player2-pic' />
+                    </div>
+                  </div>
+                  <div className="satta">
+                    <h1>Enjoy<br /> Every Short</h1>
+                  </div>
+                </div>
+              </div>
+              <div className="details2">
+                <img src={Profile3} alt="details3-pic" className='details3-pic'/>
+                <div className="details-overlay">
+                  <div className="patta">
+                    <div className="circular-sphere">
+                      <FaPlus className='faplus'/>
+                    </div>
+
+                    <div className="profile-circle">
+                      <img src={Profile4} alt="player4-pic" className='player4-pic' />
+                    </div>
+                  </div>
+
+                  <div className="satta">
+                    <h1>Attention<br /> to Details</h1>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div className="swipe2b"></div>
+            <div className="swipe2b">
+              <h2>Providing Personilzed training to help<br />atheletes reach peak performance<br />and transform their potential</h2>
+            </div>
           </div>
         </div>
       </section>
