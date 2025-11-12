@@ -2486,3 +2486,75 @@ nav{
     font-weight: 600;
     font-size: 24px;
 }
+
+/* ===== Responsive the Swiper Section Here ===== */
+
+@media (max-width:786px){
+    .heading h1{
+        font-size: 42px;
+    }
+    .swipe1{
+        min-width: 600px;
+    }
+    .roundooo{
+        width: 70px;
+        height: 70px;
+    }
+}
+
+@media (max-width:650px){
+    .heading h1{
+        font-size: 36px;
+        text-align: center;
+    }
+    .heading{
+        height: fit-content;
+    }
+    .swiper-control{
+        height: 80%;
+    }
+    
+}
+
+
+@media (max-width:570px){
+    .swipe1{
+        min-width: 500px;
+    }
+    .heading h1{
+        font-size: 30px;
+    }
+}
+
+
+@media (max-width:500px){
+    .heading h1{
+        font-size: 26px;
+    }
+}
+
+
+@media (max-width:450px){
+    .swipe1{
+        min-width: 400px;
+    }
+    .swipe2{
+        height: fit-content;
+    }
+    .heading{
+        padding-top: 2px;
+    }
+    .heading h1{
+        font-size: 20px;
+    }
+    #swiper{
+        height: fit-content;
+    }
+}
+
+
+@media (max-width:360px){
+    .heading h1{
+        font-size: 16px;
+    }
+}
