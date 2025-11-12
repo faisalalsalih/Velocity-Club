@@ -2111,7 +2111,7 @@ nav{
 #swiper{
     width: 100%;
     height: 700px;
-    background-color: green;
+    /* background-color: green; */
     max-width: 1800px;
     justify-self: center;
 }
@@ -2120,7 +2120,7 @@ nav{
 .heading{
     width: 100%;
     height: 30%;
-    background-color: red;
+    /* background-color: red; */
     padding-left: 40px;
     padding-right: 40px;
     padding-top: 10px;
@@ -2138,7 +2138,7 @@ nav{
 .swiper-control{
     width: 100%;
     height: 70%;
-    background-color: grey;
+    /* background-color: grey; */
     padding-left: 40px;
     padding-right: 40px;
     display: flex;
@@ -2166,7 +2166,7 @@ nav{
 .swipe1{
     min-width: 660px;
     height: 400px;
-    background-color: chartreuse;
+    /* background-color: chartreuse; */
     border-radius: 22px;
     overflow: hidden;
     position: relative;
@@ -2239,7 +2239,7 @@ nav{
 .image-roller1, .image-roller2, .image-roller3{
     width: 40px;
     height: 40px;
-    background-color: green;
+    /* background-color: green; */
     border-radius: 50%;
     overflow: hidden;
 }
@@ -2327,7 +2327,7 @@ nav{
     min-width: 1000px;
     height: 95%;
     border-radius: 22px;
-    background-color: orange;
+    /* background-color: orange; */
     padding: 6px;
 }
 
@@ -2399,7 +2399,7 @@ nav{
 .details1, .details2{
     width: 330px;
     height: 250px;
-    background-color: red;
+    /* background-color: red; */
     border-radius: 22px;
     position: relative;
     overflow: hidden;
@@ -2420,7 +2420,7 @@ nav{
 .details-overlay{
     width: 100%;
     height: 100%;
-    background-color: yellowgreen;
+    /* background-color: yellowgreen; */
     position: absolute;
     top: 0;
     z-index: 4;
@@ -2429,7 +2429,7 @@ nav{
 .patta{
     width: 100%;
     height: 50%;
-    background-color: #4b4d3d;
+    /* background-color: #4b4d3d; */
     display: flex;
     justify-content: space-between;
     padding: 10px;
@@ -2439,7 +2439,7 @@ nav{
 .satta{
     width: 100%;
     height: 50%;
-    background-color: aqua;
+    /* background-color: aqua; */
     padding: 10px;
 }
 
@@ -2473,7 +2473,7 @@ nav{
 .swipe2b{
     width: 100%;
     height: 130px;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     margin-top: 8px;
     display: flex;
     justify-content: center;
@@ -2558,3 +2558,9 @@ nav{
         font-size: 16px;
     }
 }
+
+
+
+
+/* ====== The End of the Swiper Section ====== */
+
