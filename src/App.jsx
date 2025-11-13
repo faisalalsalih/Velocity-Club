@@ -5,6 +5,8 @@ import Hr from "./components/Hr"
 import Discover from './components/Discover'
 import Facilities from './components/Facilities'
 import Swiper from './components/Swiper'
+import Pricing from "./components/Pricing"
+
 
 
 
@@ -17,6 +19,7 @@ const App = () => {
       <Discover />
       <Facilities />
       <Swiper />
+      <Pricing />
     </>
   )
 }
