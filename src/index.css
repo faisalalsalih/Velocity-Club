@@ -253,6 +253,11 @@ nav{
     }
 }
 
+@media (min-width:1800px){
+    .link1>a, .link2>a, .link3>a, .link4>a{
+        font-size: 18px;
+    }
+}
 /* ========= THE NAVBAR SECTION ENDS HERE =========== */
 
 
