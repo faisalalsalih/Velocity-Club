@@ -1,6 +1,7 @@
 import React from 'react'
 import { BiCycling } from "react-icons/bi";
 import { MdKeyboardDoubleArrowRight } from "react-icons/md";
+import { BsCurrencyDollar } from "react-icons/bs";
 
 
 
@@ -19,7 +20,12 @@ const Pricing = () => {
           </div>
 
           <div className="dollars">
-            
+            <div className="dollars-round">
+              <BsCurrencyDollar className='dollar-icon'/>
+            </div>
+            <div className="indicator">
+              <h6>Pricing</h6>
+            </div>
           </div>
         </div>
         <div className="pricing2">
