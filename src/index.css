@@ -2679,7 +2679,7 @@ nav{
 }
 .indicator{
     width: 70px;
-    height: 30px;
+    height: 34px;
     border-radius: 16px;
     background-color: #b4b2b2;
     display: flex;
@@ -2737,4 +2737,117 @@ nav{
     position: absolute;
     top: 0;
     z-index: 4;
+}
+
+.big1a{
+    width: 100%;
+    height: 130px;
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.best-seller button{
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: black;
+    border-radius: 22px;
+    color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+
+.jumbo{
+    width: 140px;
+    height: 60px;
+    background-color: yellow;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.jumbo1{
+    width: 60px;
+    height: 60px;
+    background-color: blue;
+    border-radius: 50%;
+    border: 2px solid white;
+    overflow: hidden;
+    position: absolute;
+    z-index: 10;
+    left: 5px;
+}
+.jumbo2{
+    width: 60px;
+    height: 60px;
+    background-color: pink;
+    border-radius: 50%;
+    border: 2px solid white;
+    overflow: hidden;
+    position: absolute;
+    z-index: 11;
+    left: 50px;
+}
+
+.coaches p{
+    font-size: 14px;
+    color: white;
+}
+
+.coach1, .coach2{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.big1b{
+    width: 100%;
+    height: 240px;
+    background-color: rgb(5, 213, 220);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.sessions{
+    all: unset;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    background-color: black;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    margin-top: -20px;
+}
+.span1{
+    color: white;
+    font-size: 32px;
+}
+
+.span2{
+    color: white;
+    font-size: 12px;
+}
+
+
+.big1b h1{
+    font-size: 46px;
+    color: white;
+}
+
+.big1b p{
+    margin-top: -22px;
+    text-align: center;
+    color: white;
 }

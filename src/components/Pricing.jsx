@@ -4,6 +4,9 @@ import { MdKeyboardDoubleArrowRight } from "react-icons/md";
 import { BsCurrencyDollar } from "react-icons/bs";
 import big1 from "../assets/big1.jpg"
 import big2 from "../assets/big2.jpg"
+import coach1 from "../assets/coach1.jpg"
+import coach2 from "../assets/coach2.jpg"
+import coach3 from "../assets/coach3.jpg"
 
 
 
@@ -35,13 +38,39 @@ const Pricing = () => {
 
         <div className="pricing2">
           <div className="pricetag1">
-            <img src={big1} alt="big1" className='big1' />
+            <img src={big1} alt="big1" className='big1-pic' />
             <div className="big1">
+              <div className="big1a">
+                <div className="best-seller">
+                  <button>Best Sellers</button>
+                </div>
 
+                <div className="coaches">
+                  <div className="jumbo">
+                    <div className="jumbo1">
+                      <img src={coach1} alt="coach1" className='coach1' />
+                    </div>
+                    <div className="jumbo2">
+                      <img src={coach2} alt="coach2" className='coach2' />
+                    </div>
+                  </div>
+
+                  <p>Recomended by<br />US Coaches</p>
+                </div>
+              </div>
+
+              <div className="big1b">
+                <h1>6 Season<br />Package</h1>
+                <p>Individualized<br />Training</p>
+                <button className="sessions">
+                  <span className='span1'>$50</span>
+                  <span className='span2'>/Sessions</span>
+                </button>
+              </div>
             </div>
           </div>
           <div className="pricetag2">
-            <img src={big2} alt="big2" className='big2' />
+            <img src={big2} alt="big2" className='big2-pic' />
             <div className="big2">
               
             </div>
