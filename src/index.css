@@ -2597,6 +2597,7 @@ nav{
     padding-bottom: 6px;
     position: relative;
     padding: 6px;
+    top: 0;
 }
 .pricing1 h1{
     font-size: 46px;
@@ -2687,4 +2688,53 @@ nav{
 }
 .indicator h6{
     font-size: 12px;
+}
+
+
+.pricing2{
+    width: 100%;
+    height: 500px;
+    background-color: yellow;
+    padding: 8px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.pricetag1{
+    width: 48%;
+    height: 95%;
+    background-color: #4b4d3d;
+    border-radius: 22px;
+    position: relative;
+    overflow-block: hidden;
+}
+
+.pricetag2{
+    width: 48%;
+    height: 95%;
+    background-color: #4b4d3d;
+    border-radius: 22px;
+    position: relative;
+    overflow-block: hidden;
+}
+
+.pricetag1>img, .pricetag2>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    z-index: 2;
+}
+
+.big1, .big2{
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+    position: absolute;
+    top: 0;
+    z-index: 4;
 }
