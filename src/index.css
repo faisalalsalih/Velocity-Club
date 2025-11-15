@@ -3284,7 +3284,7 @@ nav{
 /* ====== Footer Section Starts from Here ====== */
 #footer{
     width: 97%;
-    height: 600px;
+    height: auto;
     max-width: 1800px;
     background-color: #c6c3c3;
     border-radius: 14px;
@@ -3295,13 +3295,18 @@ nav{
 }
 .footer1{
     width: 100%;
-    height: 520px;
+    height: auto;
     background-color: red;
+    display: flex;
+    align-items: start;
+    gap: 16px;
+    padding: 20px;
+    flex-wrap: wrap;
 }
 
 
 .foot1{
-    width: 400px;
+    width: 300px;
     height: 300px;
     background-color: yellow;
     display: flex;
@@ -3328,4 +3333,87 @@ nav{
 
 .logo-content h2{
     font-weight: 500;
+}
+
+.foot2{
+    width: 250px;
+    height: 380px;
+    background-color: rgb(1, 20, 162);
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.foot2 h4{
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+
+.foot2 ul>li{
+    list-style-type: none;
+    margin-bottom: 12px;
+}
+.foot2 ul>li>a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+.foot2 ul>li>a:hover{
+    border-bottom: 1px solid black;
+}
+
+
+.foot3{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.foot3 h4{
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+
+.foot3 ul>li{
+    list-style-type: none;
+    margin-bottom: 12px;
+}
+.foot3 uL>li>a{
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+}
+
+.foot3 ul>li>a:hover{
+    border-bottom: 1px solid black;
+}
+
+.foot4{
+    width: 200px;
+    height: 350px;
+    background-color: blue;
+}
+
+.foot5{
+    width: 350px;
+    height: 400px;
+    background-color: yellow;
+}
+
+.footer2{
+    width: 100%;
+    height: 50px;
+    background-color: green;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
 }
