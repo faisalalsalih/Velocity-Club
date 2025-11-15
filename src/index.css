@@ -3130,6 +3130,8 @@ nav{
     height: 260px;
     border-radius: 22px;
     background-color: brown;
+    position: relative;
+    overflow: hidden;
 }
 
 .pager3{
@@ -3137,4 +3139,30 @@ nav{
     height: 260px;
     border-radius: 22px;
     background-color: green;
+}
+
+
+.pager1>img, .pager2>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    z-index: 2;
+    pointer-events: none;
+}
+
+.pager-overlay{
+    width: 100%;
+    height: 100%;
+    background-color: blueviolet;
+    position: absolute;
+    top: 0;
+    z-index: 4;
+}
+
+.dev-ops{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(231, 15, 15);
 }

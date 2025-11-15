@@ -1,7 +1,10 @@
 import React, { useRef, useEffect } from 'react'
 import { RiArrowRightUpLine } from "react-icons/ri";
 import { FaUserGroup } from "react-icons/fa6";
-
+import tennis1 from "../assets/tennisc1.jpg"
+import tennis2 from "../assets/tennisc2.jpg"
+import badminton from "../assets/badminton.jpg"
+import basketball from "../assets/basketball.jpg"
 
 
 const Team = () => {
@@ -52,7 +55,11 @@ const Team = () => {
       slider.removeEventListener('mouseup', handlemouseUp);
       slider.removeEventListener('mousemove', mouseMoveHandler);
     }
-  }, [])
+  }, []);
+
+
+
+
   return (
     <>
       <section id='team'>
@@ -75,12 +82,33 @@ const Team = () => {
             </div>
         </div>
         <div className="team2" ref={teamref}>
-          <div className="pager1"></div>
-          <div className="pager2"></div>
+          <div className="pager1">
+            <img src={tennis1} alt="pagers-pic" className='pagers-pic' />
+            <div className="pager-overlay">
+              <div className="dev-ops">
+                
+              </div>
+            </div>
+          </div>
+          <div className="pager2">
+            <img src={tennis2} alt="pagers-pic" className='pagers-pic' />
+            <div className="pager-overlay"></div>
+
+          </div>
           <div className="pager3"></div>
-          <div className="pager1"></div>
-          <div className="pager2"></div>
-          <div className="pager3"></div>
+          <div className="pager1">
+            <img src={badminton} alt="pagers-pic" className='pagers-pic' />
+            <div className="pager-overlay"></div>
+
+          </div>
+          <div className="pager2">
+            <img src={basketball} alt="pagers-pic" className='pagers-pic' />
+            <div className="pager-overlay"></div>
+
+          </div>
+          <div className="pager3">
+            
+          </div>
         </div>
       </section>
     </>
