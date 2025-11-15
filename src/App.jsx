@@ -7,6 +7,7 @@ import Facilities from './components/Facilities'
 import Swiper from './components/Swiper'
 import Pricing from "./components/Pricing"
 import Team from "./components/Team"
+import Footer from './components/Footer'
 
 
 
@@ -22,6 +23,7 @@ const App = () => {
       <Swiper />
       <Pricing />
       <Team />
+      <Footer />
     </>
   )
 }
