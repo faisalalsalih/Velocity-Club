@@ -3246,6 +3246,7 @@ nav{
     gap: 10px;
     color: white;
     cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
 }
 .Upline{
     width: 20px;
