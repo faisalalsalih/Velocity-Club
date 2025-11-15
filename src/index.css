@@ -3138,9 +3138,18 @@ nav{
     min-width: 300px;
     height: 260px;
     border-radius: 22px;
-    background-color: green;
+    background-color: black;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.pager3>h3{
+    color: white;
+    text-align: center;
+    font-weight: 400;
+}
 
 .pager1>img, .pager2>img{
     width: 100%;
@@ -3219,4 +3228,51 @@ nav{
 .blur-dev h6{
     color: white;
     font-weight: 300;
+}
+
+
+
+.devops-button{
+    all: unset;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 22px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    cursor: pointer;
+}
+.Upline{
+    width: 20px;
+    height: 20px;
+}
+
+
+
+/* ==== Responsive the Team Section Here ==== */
+@media (max-width:786px){
+    #team{
+        margin-top: 200px;
+    }
+}
+
+@media (max-width:540px){
+    .team1{
+        margin-bottom: 40px;
+    }
+    .team1 h2{
+        font-size: 28px;
+    }
+}
+
+
+@media (max-width:350px){
+    .team1 h2{
+        font-size: 22px;
+    }
 }

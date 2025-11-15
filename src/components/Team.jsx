@@ -34,7 +34,7 @@ const Team = () => {
       if (!isDraging) return;
       e.preventDefault();
       const x = e.pageX - slider.offsetLeft;
-      const walk = (x - StartX) * 2;
+      const walk = (x - StartX) * 3;
       slider.scrollLeft = scrollLeft - walk;
     }
     const mouseLeaveHandler = () => {
@@ -131,7 +131,25 @@ const Team = () => {
 
           </div>
           <div className="pager3">
-            
+            <h3>Join our community<br />of atheletes</h3>
+            <div className="pager-overlay">
+              <div className="dev-ops">
+                <div className="devops-icons">
+                  <div className="bum-bum">
+                    <FaRegEnvelope className='enveloped'/>
+                  </div>
+                  <div className="bum-bum">
+                    <LuMessageCircleMore className='message'/>
+                  </div>
+                </div>
+              </div>
+              <div className="dev-ops2">
+                <button className='devops-button'>
+                  <span>hello-community.com</span>
+                  <span><RiArrowRightUpLine className='Upline'/></span>
+                </button>
+              </div>
+            </div>
           </div>
           <div className="pager1">
             <img src={badminton} alt="pagers-pic" className='pagers-pic' />
@@ -180,7 +198,29 @@ const Team = () => {
 
           </div>
           <div className="pager3">
-            
+            <h3>Join our community<br />of atheletes</h3>
+            <div className="pager-overlay">
+              <div className="dev-ops">
+                <div className="devops-icons">
+                  <div className="bum-bum">
+                    <FaRegEnvelope className='enveloped'/>
+                  </div>
+                  <div className="bum-bum">
+                    <LuMessageCircleMore className='message'/>
+                  </div>
+                </div>
+              </div>
+
+
+              <div className="dev-ops2">
+                <button className='devops-button'>
+                  <span>hello-community.com</span>
+                  <span><RiArrowRightUpLine className='Upline'/></span>
+                </button>
+              </div>
+
+
+            </div>
           </div>
         </div>
       </section>
