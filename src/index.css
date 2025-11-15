@@ -3050,7 +3050,7 @@ nav{
 #team{
     width: 100%;
     height: 420px;
-    background-color: yellow;
+    /* background-color: yellow; */
     max-width: 1800px;
     justify-self: center;
 }
@@ -3059,7 +3059,7 @@ nav{
 .team1{
     width: 100%;
     height: 160px;
-    background-color: green;
+    /* background-color: green; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -3104,7 +3104,7 @@ nav{
 .team2{
     width: 100%;
     height: calc(420px - 160px + 50px);
-    background-color: pink;
+    /* background-color: pink; */
     display: flex;
     align-items: center;
     gap: 20px;
@@ -3129,7 +3129,7 @@ nav{
     min-width: 300px;
     height: 260px;
     border-radius: 22px;
-    background-color: brown;
+    /* background-color: brown; */
     position: relative;
     overflow: hidden;
 }
@@ -3155,7 +3155,7 @@ nav{
 .pager-overlay{
     width: 100%;
     height: 100%;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
     position: absolute;
     top: 0;
     z-index: 4;
@@ -3164,5 +3164,59 @@ nav{
 .dev-ops{
     width: 100%;
     height: 70px;
-    background-color: rgb(231, 15, 15);
+    /* background-color: rgb(231, 15, 15); */
+    display: flex;
+    justify-content: end;
+    padding-right: 20px;
+}
+
+
+.devops-icons{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.bum-bum{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.dev-ops2{
+    width: 100%;
+    height: 170px;
+    /* background-color: rgb(14, 9, 169); */
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding-bottom: 8px;
+}
+
+.blur-dev{
+    width: 90%;
+    height: 70px;
+    /* background-color: rgba(255, 255, 255, 0.1); */
+    backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(30px);
+    border-radius: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 6px;
+    padding: 4px;
+}
+.blur-dev h2{
+    color: white;
+    font-weight: 300;
+}
+.blur-dev h6{
+    color: white;
+    font-weight: 300;
 }
