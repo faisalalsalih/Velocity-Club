@@ -6,6 +6,7 @@ import Discover from './components/Discover'
 import Facilities from './components/Facilities'
 import Swiper from './components/Swiper'
 import Pricing from "./components/Pricing"
+import Team from "./components/Team"
 
 
 
@@ -20,6 +21,7 @@ const App = () => {
       <Facilities />
       <Swiper />
       <Pricing />
+      <Team />
     </>
   )
 }

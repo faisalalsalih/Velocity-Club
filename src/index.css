@@ -3041,3 +3041,60 @@ nav{
         width: 100%;
     }
 }
+
+
+
+
+
+/* ====== TEAM Section Starts from Here ====== */
+#team{
+    width: 100%;
+    height: 500px;
+    background-color: yellow;
+}
+
+
+.team1{
+    width: 100%;
+    height: 160px;
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    position: relative;
+    top: 0;
+}
+
+.team1 h2{
+    font-size: 34px;
+}
+
+.team-button{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.team-button h6{
+    font-size: 14px;
+    border-bottom: 2px solid black;
+}
+.gerao{
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.arrow-rightup{
+    width: 20px;
+    height: 20px;
+    color: white;
+}
