@@ -1,5 +1,6 @@
 import React from 'react'
 import { GiTennisRacket } from "react-icons/gi";
+import { MdOutlineKeyboardDoubleArrowRight } from "react-icons/md";
 
 const Footer = () => {
   return (
@@ -47,7 +48,28 @@ const Footer = () => {
                     <li><a href="#">Youtube</a></li>
                 </ul>
             </div>
-            <div className="foot5"></div>
+            <div className="foot5">
+                <h4>Join us</h4>
+                <div className="groups">
+                    <div className="group1">
+                        <input type="text" placeholder='Type Your Email...' />
+                    </div>
+                    <div className="group2">
+                        <input type="text" placeholder='Type Your name here...' />
+                    </div>
+                    <div className="group3">
+                        <input type="text" placeholder='Training Type...' />
+                    </div>
+                    <div className="group4">
+                        <div className="group4a">
+                            <h6>START MOVING</h6>
+                        </div>
+                        <div className="group4b">
+                            <MdOutlineKeyboardDoubleArrowRight className='doublet-arrow'/>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
         <div className="footer2">
             <p>Privacy Policy Terms</p>
