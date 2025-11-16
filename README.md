@@ -32,3 +32,24 @@
 ## Horizontal Cards Carousel 🌺
 
 ![Horizontal Cards](./src/Screenshots/video3.gif)
+
+
+### Installation 🔥
+
+```bash
+git clone https://github.com/faisalalsalih/Velocity-Club.git
+cd velocityclub
+npm install
+npm run dev
+```
+
+## Tech Stack
+- React + Vite
+- Vanilla CSS
+- GSAP
+- Responsive Design
+
+
+### Live Demo Link
+[View Site]( https://faisalalsalih.github.io/Velocity-Club)
+
