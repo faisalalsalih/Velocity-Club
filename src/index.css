@@ -3296,7 +3296,7 @@ nav{
 .footer1{
     width: 100%;
     height: auto;
-    background-color: red;
+    /* background-color: red; */
     display: flex;
     align-items: start;
     gap: 16px;
@@ -3308,7 +3308,7 @@ nav{
 .foot1{
     width: 420px;
     height: 370px;
-    background-color: yellow;
+    /* background-color: yellow; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -3340,7 +3340,7 @@ nav{
 .foot2{
     width: 220px;
     height: 340px;
-    background-color: rgb(1, 20, 162);
+    /* background-color: rgb(1, 20, 162); */
     display: flex;
     flex-direction: column;
     padding-top: 20px;
@@ -3370,7 +3370,7 @@ nav{
 .foot3{
     width: 150px;
     height: 200px;
-    background-color: blue;
+    /* background-color: blue; */
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -3401,7 +3401,7 @@ nav{
 .foot4{
     width: 160px;
     height: 330px;
-    background-color: blue;
+    /* background-color: blue; */
     padding-top: 20px;
     padding-left: 20px;
 }
@@ -3432,7 +3432,7 @@ nav{
 .foot5{
     width: 350px;
     height: 400px;
-    background-color: yellow;
+    /* background-color: yellow; */
     padding-top: 20px;
     padding-left: 20px;
 }
@@ -3544,7 +3544,7 @@ nav{
 .footer2{
     width: 100%;
     height: 50px;
-    background-color: green;
+    /* background-color: green; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -3569,3 +3569,8 @@ nav{
         width: 280px;
     }
 }
+
+
+
+
+/* For Future Updates */
